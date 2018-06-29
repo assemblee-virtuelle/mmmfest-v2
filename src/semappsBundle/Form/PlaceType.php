@@ -135,6 +135,15 @@ class PlaceType extends SemanticFormType
             )
             ->add(
                 $builder,
+                'hosts',
+                UriType::class,
+                [
+                    'required'  => false,
+                    'rdfType'   => semappsConfig::URI_PAIR_EVENT,
+                ]
+            )
+            ->add(
+                $builder,
                 'deliveredBy',
                 UriType::class,
                 [
