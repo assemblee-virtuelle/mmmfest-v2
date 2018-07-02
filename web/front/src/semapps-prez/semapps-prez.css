@@ -134,7 +134,8 @@
 #semapps-prez .responsive-headline a:link,
 #semapps-prez .responsive-headline a:visited,
 #semapps-prez .responsive-headline a:active {
-  color: #a5a5a5; }
+  color: #fdff00; }
 
 #semapps-prez .responsive-headline a:hover {
-  color: white; }
+  color: #fdff00;
+  text-shadow: 3px 0px 7px white; }
