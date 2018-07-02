@@ -130,3 +130,11 @@
 
 #semapps-prez .scrolldown a:hover {
   color: #11ABB0; }
+
+#semapps-prez .responsive-headline a:link,
+#semapps-prez .responsive-headline a:visited,
+#semapps-prez .responsive-headline a:active {
+  color: #a5a5a5; }
+
+#semapps-prez .responsive-headline a:hover {
+  color: white; }
