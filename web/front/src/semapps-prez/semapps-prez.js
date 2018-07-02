@@ -29,4 +29,9 @@ Polymer({
       });
       this.isAnonymous = semapps.isAnonymous();
   },
+    handleLinks(e) {
+        e.preventDefault();
+        // Force links to reload the hole page.
+        window.location.replace(e.currentTarget.getAttribute('href'));
+    },
 });
