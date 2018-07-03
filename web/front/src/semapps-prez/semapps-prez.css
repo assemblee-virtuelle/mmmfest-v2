@@ -9,7 +9,7 @@
   src: url("/common/fonts/patrickhands/PatrickHandSC-Regular.ttf"); }
 
 .btn-primary-lgv {
-  background: #28ccfb;
+  background: rgba(253, 255, 0, 0.4);
   border-radius: 0; }
 
 .table tbody tr td.padded-value {
@@ -21,7 +21,7 @@
 
 .logo-circle {
   position: absolute;
-  background: #28ccfb;
+  background: rgba(253, 255, 0, 0);
   border-radius: 1000px;
   z-index: 100;
   width: 110px;

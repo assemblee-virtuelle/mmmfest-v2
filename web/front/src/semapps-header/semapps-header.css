@@ -9,7 +9,7 @@
   src: url("/common/fonts/patrickhands/PatrickHandSC-Regular.ttf"); }
 
 .btn-primary-lgv {
-  background: #28ccfb;
+  background: rgba(253, 255, 0, 0.4);
   border-radius: 0; }
 
 .table tbody tr td.padded-value {
@@ -21,7 +21,7 @@
 
 .logo-circle {
   position: absolute;
-  background: #28ccfb;
+  background: rgba(253, 255, 0, 0);
   border-radius: 1000px;
   z-index: 100;
   width: 110px;
@@ -37,7 +37,7 @@
 
 header {
   animation: headerFadeIn 0.5s cubic-bezier(0.8, 0, 0.3, 0.9) forwards;
-  background-color: #28ccfb;
+  background-color: rgba(253, 255, 0, 0.4);
   padding: 1.5px 20px;
   top: 0;
   left: 0;
@@ -66,7 +66,7 @@ header {
     header .search .search-fields {
       width: 100%; }
     header .search #searchText {
-      border-color: #28ccfb;
+      border-color: rgba(253, 255, 0, 0.4);
       border-radius: 0; }
     header .search input[type=submit] {
       background: #65767B;
@@ -122,10 +122,10 @@ body {
   width: 200px; }
 
 .dropdown > a {
-  color: #01acdd; }
+  color: #69884e; }
 
 .dropdown-menu > li > a {
-  color: #01acdd; }
+  color: #adaf00; }
 
 .dropdown ul.dropdown-menu {
   border-radius: 4px;
