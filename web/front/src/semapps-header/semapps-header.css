@@ -9,7 +9,7 @@
   src: url("/common/fonts/patrickhands/PatrickHandSC-Regular.ttf"); }
 
 .btn-primary-lgv {
-  background: rgba(253, 255, 0, 0.4);
+  background: #c1c300;
   border-radius: 0; }
 
 .table tbody tr td.padded-value {
@@ -66,7 +66,7 @@ header {
     header .search .search-fields {
       width: 100%; }
     header .search #searchText {
-      border-color: rgba(253, 255, 0, 0.4);
+      border-color: #c1c300;
       border-radius: 0; }
     header .search input[type=submit] {
       background: #65767B;
@@ -125,7 +125,7 @@ body {
   color: #69884e; }
 
 .dropdown-menu > li > a {
-  color: #adaf00; }
+  color: #69884e; }
 
 .dropdown ul.dropdown-menu {
   border-radius: 4px;

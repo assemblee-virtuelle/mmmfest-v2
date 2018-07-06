@@ -6,7 +6,7 @@ header {
     100% { top: 0; }
   }
   animation: headerFadeIn 0.5s cubic-bezier(0.8, 0, 0.3, 0.9) forwards;
-  background-color: $mainColorOne;
+  background-color: rgba(253, 255, 0, 0.4);
   padding: 1.5px 20px;
   top: 0;
   left: 0;
@@ -115,7 +115,7 @@ body {
   width:200px;
 }
 .dropdown>a {
-  color:#69884e;
+  color:$DarkTwoColorOne;
 
 }
 .dropdown-menu>li>a {
