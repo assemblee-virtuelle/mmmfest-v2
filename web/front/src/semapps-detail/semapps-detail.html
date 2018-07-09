@@ -20,15 +20,16 @@
       <ul id="detailTools" class="nav nav-tabs">
         <li role="presentation" class="active">
           <a id="detailBack" on-click="handleBack" href="#">
-            <span class="glyphicon glyphicon-chevron-left"></span>Recherche</a>
+            <span class="glyphicon glyphicon-chevron-left"></span>Recherche
+          </a>
         </li>
         <template is="dom-if" if="[[canEdit]]">
           <li role="presentation" class="active">
             <a on-click="handleEdit" href="#" >
-              <span class="glyphicon glyphicon-edit"></span>Editer</a>
+              <span class="glyphicon glyphicon-edit"></span>Editer
+            </a>
           </li>
         </template>
-
       </ul>
       <div id="semapps-detail-inner"></div>
     </div>

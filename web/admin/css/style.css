@@ -231,7 +231,7 @@ input.form-control {
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
-  overflow: hidden; }
+  overflow-y: scroll; }
 
 .navbar-default .navbar-nav > .main {
   background: #F0F0F0;
